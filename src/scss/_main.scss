@@ -16,6 +16,7 @@
 
 	.l-gutter {
 		@include table-dims($gutter-width, 1px);
+		@include spacer;
 	}
 
 	.l-gutter-half {
@@ -23,15 +24,26 @@
 	}
 
 	.l-border-top {
-		border-top: 1px solid #CCC;
+		border-top: 1px solid #CCCCCC;
 	}
 
 	.l-border-bottom {
-		border-bottom: 1px solid #CCC;
+		border-bottom: 1px solid #CCCCCC;
 	}
 
 	.l-border {
-		border:1px solid #CCC;
+		border:1px solid #CCCCCC;
+	}
+
+	
+
+// --------------------------------------- 
+// @group layouts: floats / responsive
+// --------------------------------------- 
+
+	.l-float {
+
+
 	}
 
 // --------------------------------------- 
@@ -124,7 +136,7 @@
 	h4 {
 		@include f-body;
 		font-weight: bold;
-		color:#333;
+		color:#333333;
 		text-transform: uppercase;
 	}
 
@@ -145,7 +157,7 @@
 // --------------------------------------- 
 
 	.l-header-colour {
-		background-color: #EEE;
+		background-color: #EEEEEE;
 	}
 
 // --------------------------------------- 
@@ -241,12 +253,22 @@
 // @group product 
 // --------------------------------------- 
 
-	.product-outer {
+	.product-outer.l-one-col,
+	.product-outer .l-one-col {
+		@include table-dims(299px);
+	}
 
+	.product-outer .l-one-col.l-border {
+		@include table-dims(297px);
+	}
+
+	.product-image-outer {
+		text-align: center;
 	}
 
 	.product-image {
 		margin: 0 auto;
+		text-align: center;
 	}
 
 	.product-title,

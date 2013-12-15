@@ -23,3 +23,10 @@
 @function strip-units ($value) {
 	@return $value / 1px;
 }
+
+// http://www.campaignmonitor.com/blog/post/3795/outlook-2013-says-no-to-empty-table-cells
+@mixin spacer() {
+	font-size: 1px;
+	line-height: 1px;
+	background: #FFFFFF;
+}
