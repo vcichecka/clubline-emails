@@ -1,0 +1,262 @@
+// --------------------------------------- 
+// @group layouts 
+// --------------------------------------- 
+
+	.l-page-width {
+		@include table-dims($page-width);
+	}
+
+	.l-one-col {
+		@include table-dims(300px);
+	}
+
+	.l-two-col {
+		@include table-dims(620px);
+	}
+
+	.l-gutter {
+		@include table-dims($gutter-width, 1px);
+	}
+
+	.l-gutter-half {
+		@include table-dims($gutter-width/2, 1px);
+	}
+
+	.l-border-top {
+		border-top: 1px solid #CCC;
+	}
+
+	.l-border-bottom {
+		border-bottom: 1px solid #CCC;
+	}
+
+	.l-border {
+		border:1px solid #CCC;
+	}
+
+// --------------------------------------- 
+// @group space 
+// --------------------------------------- 
+	
+	@mixin space($height) {
+		@include table-dims($page-width, $height);
+		.l-two-col & {
+			@include table-dims(620px, $height);
+		}
+		.l-one-col & {
+			@include table-dims(300px, $height);
+		}
+	}
+
+	.space-6 {
+		@include space(6px)
+	}
+
+	.space-12 {
+		@include space(12px)
+	}
+
+	.space-15 {
+		@include space(15px)
+	}
+
+	.space-18 {
+		@include space(18px)
+	}
+
+	.space-24 {
+		@include space(24px)
+	}
+
+	.space-30 {
+		@include space(30px)
+	}
+
+
+// --------------------------------------- 
+// @group type 
+// --------------------------------------- 
+
+	@mixin f-body {
+		font-family:$font-family;
+		line-height: 24px;
+		font-size: 16px;
+		color:$body-text-colour;
+	}
+
+	@mixin f-small {
+		font-family:$font-family;
+		line-height: 18px;
+		font-size: 13px;
+		color:$body-text-colour;
+	}
+
+	@mixin f-v-small-caps {
+		font-family:$font-family;
+		line-height: 18px;
+		font-size: 11px;
+		color:$body-text-colour;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	p {
+		margin: 0 0 18px 0;
+		color:$body-text-colour;
+	}
+
+	h1, h4 {
+		margin: 0;
+		padding: 0;
+	}
+
+	h1 {
+		font-size: 60px;
+		line-height: 72px;
+		text-align: center;
+		letter-spacing: -1.5px;
+		.light {
+			font-weight: normal;
+			display: block;
+		}
+	}
+
+	h4 {
+		@include f-body;
+		font-weight: bold;
+		color:#333;
+		text-transform: uppercase;
+	}
+
+	.quote-item {
+		@include f-small;
+		font-style: italic;
+		text-align: center;
+	}
+
+	.quote-name {
+		@include f-v-small-caps;
+		display: block;
+		font-style: normal;
+	}
+
+// --------------------------------------- 
+// @group colours 
+// --------------------------------------- 
+
+	.l-header-colour {
+		background-color: #EEE;
+	}
+
+// --------------------------------------- 
+// @group page 
+// ---------------------------------------
+
+	body,
+	#backgroundTable {
+		background-color: #F9F9F9;
+	}
+
+	#backgroundTable {
+		-premailer-cellpadding: strip-units($gutter-width);
+		padding: $gutter-width;
+	}
+
+	.wrapper {
+		@include table-dims($page-width);
+		
+	}
+	.page {
+		background-color: #FFFFFF;
+	}
+	p {
+		@include f-body;
+	}
+
+	img {
+		display: block;
+	}
+
+// --------------------------------------- 
+// @group table 
+// --------------------------------------- 
+
+	table {
+		-premailer-cellpadding: 0;
+		-premailer-cellspacing: 0;
+		padding:0;
+		border:0;
+	}
+	td {
+		@include f-body;
+	}
+
+// --------------------------------------- 
+// @group preheader, postfooter 
+// --------------------------------------- 
+
+	.preheader-item {
+		@include f-small;
+		width: 50%;
+		&.right {
+			text-align: right;
+		}
+	}
+
+
+	.postfooter p {
+		@include f-small;
+		text-align: center;
+	}
+
+// --------------------------------------- 
+// @group header 
+// --------------------------------------- 
+	
+	.header-nav-item {
+		@include table-dims(165px);
+		text-align: center;
+		@include f-small;
+		line-height: 24px;
+		background-color: #CCC;
+	}
+
+	.header-main-left,
+	.header-main-right {
+		@include table-dims(300px);
+	}
+
+	.header-main-left {
+		text-align: left;
+	}
+
+	.header-main-right {
+		text-align: right;
+		img {
+			float: right;
+		}
+	}
+
+// --------------------------------------- 
+// @group product 
+// --------------------------------------- 
+
+	.product-outer {
+
+	}
+
+	.product-image {
+		margin: 0 auto;
+	}
+
+	.product-title,
+	.product-price {
+		text-align: center;
+		@include f-body;
+		margin: 0;
+		padding: 0;
+	}
+
+	.product-title {
+
+	}

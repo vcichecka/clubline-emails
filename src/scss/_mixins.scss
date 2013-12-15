@@ -1,0 +1,25 @@
+@mixin table-dims ($width: auto, $height: auto) {
+	@if $width != auto {
+		-premailer-width: strip-units($width);
+		width: $width;
+	}
+	@if $height != auto {
+		-premailer-height: strip-units($height);
+		height: $height;
+	}
+}
+
+@mixin table-dims-per ($width: auto, $height: auto) {
+	@if $width != auto {
+		-premailer-width: $width;
+		width: $width;
+	}
+	@if $height != auto {
+		-premailer-height: $height;
+		height: $height;
+	}
+}
+
+@function strip-units ($value) {
+	@return $value / 1px;
+}

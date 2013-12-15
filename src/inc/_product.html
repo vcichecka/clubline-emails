@@ -1,0 +1,41 @@
+<% for(var i=0; i<data.products.length; i++) { %>
+	<% if (i % 2 === 0) { %>
+	<tr><td>
+	<% } %>
+		<table class="product-outer l-one-col" align="left">
+			<tr>
+				<td>
+					<table class="l-one-col l-border">
+						<tr>
+							<td class="space-12"></td>
+						</tr>
+						<tr>
+							<td>
+								<a href="<%= data.products[i].link %>" target="_blank"><img src="images/<%= data.products[i].image %>" class="product-image" alt="<%= data.products[i].name %>" title="<%= data.products[i].name %>" height="216" width="216"/></a>
+							</td>
+						</tr>
+						<tr>
+							<td class="space-6"></td>
+						</tr>
+						<tr>
+							<td>
+								<h6 class="product-title"><%= data.products[i].name %></h6>
+								<p class="product-price">£<%= data.products[i].price %></p>
+							</td>
+						</tr>
+						<tr>
+							<td class="space-12"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	<% if (i % 2 === 0) { %>
+	<table class="l-gutter" align="left"></table>
+	<% } else { %>
+	</td></tr>
+	<tr>
+		<td class="space-18"></td>
+	</tr>
+	<% } %>
+<% } %>
