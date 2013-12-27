@@ -1,90 +1,78 @@
 {
+	"title": "FREE DELIVERY",
+	"subtitle": "this weekend only!",
 	"year": "2013",
 	"products": 
 	[
 		{
 			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
+			"price": "10",
+			"image": "ultimatch.jpg",
 			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
 		},
 		{
-			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
-			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
+			"name": "Nike Premier Team 6 Ball Multibuy - 6 Balls + Carry Net",
+			"price": "115",
+			"image": "premier.jpg",
+			"link": "http://www.clublinefootball.com/nike_premier_team_6_ball_multibuy"
+		},
+		{
+			"name": "Mitre Malmo Pink Multibuy - 10 Malmo Pink + Ball Sack",
+			"price": "59",
+			"image": "tactic.jpg",
+			"link": "http://www.clublinefootball.com/mitre_malmo_pink_footballs_multibuy"
 		},
 		{
 			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
+			"price": "10",
+			"image": "ultimatch.jpg",
 			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
 		},
 		{
+			"name": "Nike Premier Team 6 Ball Multibuy - 6 Balls + Carry Net",
+			"price": "115",
+			"image": "premier.jpg",
+			"link": "http://www.clublinefootball.com/nike_premier_team_6_ball_multibuy"
+		},
+		{
+			"name": "Mitre Malmo Pink Multibuy - 10 Malmo Pink + Ball Sack",
+			"price": "59",
+			"image": "tactic.jpg",
+			"link": "http://www.clublinefootball.com/mitre_malmo_pink_footballs_multibuy"
+		},{
 			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
+			"price": "10",
+			"image": "ultimatch.jpg",
 			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
 		},
 		{
+			"name": "Nike Premier Team 6 Ball Multibuy - 6 Balls + Carry Net",
+			"price": "115",
+			"image": "premier.jpg",
+			"link": "http://www.clublinefootball.com/nike_premier_team_6_ball_multibuy"
+		},
+		{
+			"name": "Mitre Malmo Pink Multibuy - 10 Malmo Pink + Ball Sack",
+			"price": "59",
+			"image": "tactic.jpg",
+			"link": "http://www.clublinefootball.com/mitre_malmo_pink_footballs_multibuy"
+		},{
 			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
+			"price": "10",
+			"image": "ultimatch.jpg",
 			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
 		},
 		{
-			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
-			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
+			"name": "Nike Premier Team 6 Ball Multibuy - 6 Balls + Carry Net",
+			"price": "115",
+			"image": "premier.jpg",
+			"link": "http://www.clublinefootball.com/nike_premier_team_6_ball_multibuy"
 		},
 		{
-			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
-			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
-		},
-		{
-			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
-			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
-		},
-		{
-			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
-			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
-		},
-		{
-			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
-			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
-		},
-		{
-			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
-			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
-		},
-		{
-			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
-			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
-		},
-		{
-			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
-			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
-		},
-		{
-			"name": "Mitre Ultimatch Fluo",
-			"price": "90",
-			"image": "product.png",
-			"link": "http://www.clublinefootball.com/mitre_ultimatch_fluo_football-mitre-085489-461"
+			"name": "Mitre Malmo Pink Multibuy - 10 Malmo Pink + Ball Sack",
+			"price": "59",
+			"image": "tactic.jpg",
+			"link": "http://www.clublinefootball.com/mitre_malmo_pink_footballs_multibuy"
 		}
 	]
 }

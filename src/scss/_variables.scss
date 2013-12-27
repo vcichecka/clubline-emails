@@ -12,13 +12,22 @@
 
 //  Colours
 
-	$body-text-colour:#777;
+	$col-red: #871C14;
+	$col-green: #006600;
+	$col-green-dark: #263E26;
+	$col-green-light: #E3E8E3; 
+	$col-green-mid: mix($col-green, $col-green-light);
 
-	$base-link-color: #0085B2;
-	$base-link-active-color: #0085B2;
-	$base-link-visited-color: #0085B2;
+	$body-text-colour:#777777;
+	$page-colour: #F9F9F9;
 
-	$base-heading-color: #000000;
+	$base-link-color: $col-green;
+	$base-link-active-color: $col-green;
+	$base-link-visited-color: $col-green;
+
+	$base-heading-color: #333333;
+
+	
 
 // Breakpoints
 

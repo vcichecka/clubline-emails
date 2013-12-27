@@ -28,23 +28,23 @@ p {
 Bring inline: Yes. */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_base\.scss}line{font-family:\0000313}}
 h1, h2, h3, h4, h5, h6 {
-  color: black !important;
+  color: #333333 !important;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_base\.scss}line{font-family:\0000315}}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: #0085b2 !important;
+  color: #006600 !important;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_base\.scss}line{font-family:\0000317}}
 h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
-  color: #0085b2 !important;
+  color: #006600 !important;
   /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_base\.scss}line{font-family:\0000321}}
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
-  color: #0085b2 !important;
+  color: #006600 !important;
   /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
 }
 
@@ -68,7 +68,7 @@ table {
 Bring inline: Yes. */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_base\.scss}line{font-family:\0000335}}
 a {
-  color: #0085b2;
+  color: #006600;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_base\.scss}line{font-family:\0000337}}
@@ -116,44 +116,41 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000326}}
 .l-border-top {
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #CCCCCC;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000330}}
 .l-border-bottom {
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #CCCCCC;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000334}}
 .l-border {
-  border: 1px solid #CCC;
+  border: 1px solid #CCCCCC;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000340}}
-.l-float > td {
-  mso-border-right-alt: solid #000 .5pt;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000344}}
-.l-float > td > div {
-  mso-table-lspace: 0;
-  mso-table-rspace: 0;
+.l-border.l-green,
+.l-border-top.l-green,
+.l-border-bottom.l-green {
+  border-color: #71a771;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000360}}
 .space-6 {
   -premailer-width: 660;
   width: 660px;
   -premailer-height: 6;
   height: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000352}}
 .l-two-col .space-6 {
   -premailer-width: 620;
   width: 620px;
   -premailer-height: 6;
   height: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000355}}
 .l-one-col .space-6 {
   -premailer-width: 300;
   width: 300px;
@@ -161,21 +158,21 @@ body {
   height: 6px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000364}}
 .space-12 {
   -premailer-width: 660;
   width: 660px;
   -premailer-height: 12;
   height: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000352}}
 .l-two-col .space-12 {
   -premailer-width: 620;
   width: 620px;
   -premailer-height: 12;
   height: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000355}}
 .l-one-col .space-12 {
   -premailer-width: 300;
   width: 300px;
@@ -183,21 +180,21 @@ body {
   height: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000368}}
 .space-15 {
   -premailer-width: 660;
   width: 660px;
   -premailer-height: 15;
   height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000352}}
 .l-two-col .space-15 {
   -premailer-width: 620;
   width: 620px;
   -premailer-height: 15;
   height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000355}}
 .l-one-col .space-15 {
   -premailer-width: 300;
   width: 300px;
@@ -205,21 +202,21 @@ body {
   height: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000372}}
 .space-18 {
   -premailer-width: 660;
   width: 660px;
   -premailer-height: 18;
   height: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000352}}
 .l-two-col .space-18 {
   -premailer-width: 620;
   width: 620px;
   -premailer-height: 18;
   height: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000355}}
 .l-one-col .space-18 {
   -premailer-width: 300;
   width: 300px;
@@ -227,21 +224,21 @@ body {
   height: 18px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000376}}
 .space-24 {
   -premailer-width: 660;
   width: 660px;
   -premailer-height: 24;
   height: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000352}}
 .l-two-col .space-24 {
   -premailer-width: 620;
   width: 620px;
   -premailer-height: 24;
   height: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000355}}
 .l-one-col .space-24 {
   -premailer-width: 300;
   width: 300px;
@@ -249,21 +246,21 @@ body {
   height: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000380}}
 .space-30 {
   -premailer-width: 660;
   width: 660px;
   -premailer-height: 30;
   height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000352}}
 .l-two-col .space-30 {
   -premailer-width: 620;
   width: 620px;
   -premailer-height: 30;
   height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\0000355}}
 .l-one-col .space-30 {
   -premailer-width: 300;
   width: 300px;
@@ -271,43 +268,64 @@ body {
   height: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003113}}
 p {
   margin: 0 0 18px 0;
   color: #777777;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003118}}
 h1, h4 {
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003123}}
 h1 {
   font-size: 60px;
-  line-height: 72px;
+  line-height: 60px;
   text-align: center;
   letter-spacing: -1.5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003128}}
 h1 .light {
-  font-weight: normal;
   display: block;
+  color: #71a771;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003134}}
 h4 {
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 24px;
   font-size: 16px;
   color: #777777;
   font-weight: bold;
-  color: #333;
+  color: #333333;
   text-transform: uppercase;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003141}}
+a, a:visited {
+  color: #006600;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003145}}
+.quote-space:first-child {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 50%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.05)), color-stop(50%, rgba(0, 0, 0, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 50%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 50%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 50%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 50%);
+  /* W3C */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003154}}
 .quote-item {
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 18px;
@@ -317,7 +335,7 @@ h4 {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003160}}
 .quote-name {
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 18px;
@@ -329,35 +347,35 @@ h4 {
   font-style: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003172}}
 .l-header-colour {
-  background-color: #EEE;
+  background-color: #EEEEEE;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003183}}
 body,
 #backgroundTable {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003187}}
 #backgroundTable {
   -premailer-cellpadding: 20;
   padding: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003192}}
 .wrapper {
   -premailer-width: 660;
   width: 660px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003196}}
 .page {
   background-color: #FFFFFF;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003199}}
 p {
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 24px;
@@ -365,12 +383,12 @@ p {
   color: #777777;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003203}}
 img {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003213}}
 table {
   -premailer-cellpadding: 0;
   -premailer-cellspacing: 0;
@@ -378,7 +396,7 @@ table {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003219}}
 td {
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 24px;
@@ -386,7 +404,7 @@ td {
   color: #777777;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003229}}
 .preheader-item {
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 18px;
@@ -394,12 +412,12 @@ td {
   color: #777777;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003232}}
 .preheader-item.right {
   text-align: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003238}}
 .postfooter p {
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 18px;
@@ -408,7 +426,17 @@ td {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003243}}
+.postfooter .l-gutter {
+  background: #f9f9f9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003252}}
+.header-nav {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003256}}
 .header-nav-item {
   -premailer-width: 165;
   width: 165px;
@@ -418,49 +446,83 @@ td {
   font-size: 13px;
   color: #777777;
   line-height: 24px;
-  background-color: #CCC;
+  height: 24px;
+  background-color: #006600;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003263}}
+.header-nav-item a {
+  color: #FFFFFF !important;
+  text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003270}}
 .header-main-left,
 .header-main-right {
   -premailer-width: 300;
   width: 300px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003274}}
 .header-main-left {
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003278}}
 .header-main-right {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003280}}
 .header-main-right img {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003292}}
+.main-subject-outer,
+.main-subject-outer td {
+  background-color: #e3e8e3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003303}}
 .product-outer.l-one-col,
 .product-outer .l-one-col {
   -premailer-width: 299;
   width: 299px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003263}}
-.product-outer .l-one-col.l-border {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003307}}
+.product-outer {
+  vertical-align: top;
+  height: 318px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003312}}
+.product-outer .l-one-col.l-border > table {
   -premailer-width: 297;
   width: 297px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003267}}
-.product-image {
-  margin: 0 auto;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003319}}
+.product-image-outer {
+  text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003323}}
+.product-image {
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003328}}
+.product-outer table {
+  -premailer-cellpadding: 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003332}}
+.product-title {
+  height: 45px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003337}}
 .product-title,
 .product-price {
   text-align: center;
@@ -472,6 +534,18 @@ td {
   padding: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003344}}
+.product-title {
+  color: #871c14 !important;
+  line-height: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003349}}
+.product-price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 /***************************************************
 ****************************************************
 MOBILE TARGETING
@@ -479,7 +553,7 @@ MOBILE TARGETING
 ***************************************************/
 @media only screen and (max-device-width: 480px) {
   /* Part one of controlling phone number linking for mobile. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_media-queries\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_media-queries\.scss}line{font-family:\0000311}}
   a[href^="tel"], a[href^="sms"] {
     text-decoration: none;
     color: blue;
@@ -488,7 +562,7 @@ MOBILE TARGETING
     cursor: default;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_media-queries\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_media-queries\.scss}line{font-family:\0000318}}
   .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
     text-decoration: default;
     color: orange !important;
@@ -500,7 +574,7 @@ MOBILE TARGETING
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* You guessed it, ipad (tablets, smaller screens, etc) */
   /* repeating for the ipad */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_media-queries\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_media-queries\.scss}line{font-family:\0000332}}
   a[href^="tel"], a[href^="sms"] {
     text-decoration: none;
     color: blue;
@@ -509,7 +583,7 @@ MOBILE TARGETING
     cursor: default;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_media-queries\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_media-queries\.scss}line{font-family:\0000339}}
   .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
     text-decoration: default;
     color: orange !important;

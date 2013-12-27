@@ -35,16 +35,13 @@
 		border:1px solid #CCCCCC;
 	}
 
-	
-
-// --------------------------------------- 
-// @group layouts: floats / responsive
-// --------------------------------------- 
-
-	.l-float {
-
-
+	.l-border.l-green,
+	.l-border-top.l-green,
+	.l-border-bottom.l-green {
+		border-color: $col-green-mid; 
 	}
+
+// @end
 
 // --------------------------------------- 
 // @group space 
@@ -84,6 +81,7 @@
 		@include space(30px)
 	}
 
+// @end
 
 // --------------------------------------- 
 // @group type 
@@ -124,12 +122,12 @@
 
 	h1 {
 		font-size: 60px;
-		line-height: 72px;
+		line-height: 60px;
 		text-align: center;
 		letter-spacing: -1.5px;
 		.light {
-			font-weight: normal;
 			display: block;
+			color:$col-green-mid;
 		}
 	}
 
@@ -138,6 +136,19 @@
 		font-weight: bold;
 		color:#333333;
 		text-transform: uppercase;
+	}
+
+	a, a:visited {
+		color: $col-green;
+	}
+
+	.quote-space:first-child {
+		background: -moz-linear-gradient(top, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0) 50%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.05)), color-stop(50%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0.05) 0%,rgba(0,0,0,0) 50%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(0,0,0,0.05) 0%,rgba(0,0,0,0) 50%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(0,0,0,0.05) 0%,rgba(0,0,0,0) 50%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%,rgba(0,0,0,0) 50%); /* W3C */
 	}
 
 	.quote-item {
@@ -152,6 +163,8 @@
 		font-style: normal;
 	}
 
+// @end
+
 // --------------------------------------- 
 // @group colours 
 // --------------------------------------- 
@@ -160,13 +173,15 @@
 		background-color: #EEEEEE;
 	}
 
+// @end
+
 // --------------------------------------- 
 // @group page 
 // ---------------------------------------
 
 	body,
 	#backgroundTable {
-		background-color: #F9F9F9;
+		background-color: $page-colour;
 	}
 
 	#backgroundTable {
@@ -189,6 +204,8 @@
 		display: block;
 	}
 
+// @end
+
 // --------------------------------------- 
 // @group table 
 // --------------------------------------- 
@@ -202,6 +219,8 @@
 	td {
 		@include f-body;
 	}
+
+// @end
 
 // --------------------------------------- 
 // @group preheader, postfooter 
@@ -221,16 +240,30 @@
 		text-align: center;
 	}
 
+	.postfooter .l-gutter {
+		background: $page-colour;
+	}
+
+// @end
+
 // --------------------------------------- 
 // @group header 
 // --------------------------------------- 
-	
+	.header-nav {
+		box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+	}
+
 	.header-nav-item {
 		@include table-dims(165px);
 		text-align: center;
 		@include f-small;
 		line-height: 24px;
-		background-color: #CCC;
+		height: 24px;
+		background-color: $col-green;
+		a {
+			color: #FFFFFF !important;
+			text-decoration: none;
+		}
 	}
 
 	.header-main-left,
@@ -249,6 +282,19 @@
 		}
 	}
 
+// @end
+
+// --------------------------------------- 
+// @group main 
+// --------------------------------------- 
+
+	.main-subject-outer,
+	.main-subject-outer td {
+		background-color: $col-green-light;
+	}
+
+// @end
+
 // --------------------------------------- 
 // @group product 
 // --------------------------------------- 
@@ -258,8 +304,16 @@
 		@include table-dims(299px);
 	}
 
-	.product-outer .l-one-col.l-border {
+	.product-outer {
+		vertical-align: top;
+		height: 318px;
+	}
+
+	.product-outer .l-one-col.l-border > table {
 		@include table-dims(297px);
+
+		
+		
 	}
 
 	.product-image-outer {
@@ -271,6 +325,14 @@
 		text-align: center;
 	}
 
+	.product-outer table {
+		-premailer-cellpadding: 6px;
+	}
+
+	.product-title {
+		height: 45px;
+	}
+
 	.product-title,
 	.product-price {
 		text-align: center;
@@ -280,5 +342,13 @@
 	}
 
 	.product-title {
-
+		color: $col-red !important;
+		line-height: 18px;
 	}
+
+	.product-price {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+// @end
