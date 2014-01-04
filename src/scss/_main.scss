@@ -122,9 +122,11 @@
 
 	h1 {
 		font-size: 60px;
+		font-family: $font-family;
 		line-height: 60px;
 		text-align: center;
 		letter-spacing: -1.5px;
+		font-weight: bold;
 		.light {
 			display: block;
 			color:$col-green-mid;
@@ -257,12 +259,14 @@
 		@include table-dims(165px);
 		text-align: center;
 		@include f-small;
-		line-height: 24px;
-		height: 24px;
+		line-height: 30px;
+		mso-line-height-rule: exactly;
+		vertical-align: middle;
 		background-color: $col-green;
 		a {
 			color: #FFFFFF !important;
 			text-decoration: none;
+			line-height: 30px;
 		}
 	}
 
@@ -320,13 +324,14 @@
 		text-align: center;
 	}
 
-	.product-image {
+	img.product-image {
 		margin: 0 auto;
 		text-align: center;
+		display: inline !important;
 	}
 
 	.product-outer table {
-		-premailer-cellpadding: 6px;
+		-premailer-cellpadding: 6;
 	}
 
 	.product-title {
@@ -341,7 +346,8 @@
 		padding: 0;
 	}
 
-	.product-title {
+	.product-title,
+	.product-title a {
 		color: $col-red !important;
 		line-height: 18px;
 	}
@@ -350,5 +356,12 @@
 		font-size: 24px;
 		font-weight: bold;
 	}
+
+	.product-title a,
+	.product-price a {
+		text-decoration: none;
+	}
+
+	
 
 // @end

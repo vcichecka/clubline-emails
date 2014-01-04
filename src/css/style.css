@@ -534,13 +534,14 @@ td {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003344}}
-.product-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003345}}
+.product-title,
+.product-title a {
   color: #871c14 !important;
   line-height: 18px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jonhiggins\/Sites\/clubline-emails\/src\/scss\/_main\.scss}line{font-family:\00003350}}
 .product-price {
   font-size: 24px;
   font-weight: bold;
