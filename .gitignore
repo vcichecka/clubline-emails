@@ -7,3 +7,5 @@
 /src/_tmp.email.html
 /src/_tmp.email.txt
 
+
+/config/nodemailer-transport.json

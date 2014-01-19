@@ -293,8 +293,8 @@ module.exports = function(grunt) {
                 // HTML and TXT email
                 // A collection of recipients
                 recipients: [{
-                    email: 'jane.doe@gmail.com',
-                    name: 'Jane Doe'
+                    email: 'jon@jonhiggins.co.uk',
+                    name: 'Jon Higgins'
                 }]
             },
 
