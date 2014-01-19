@@ -1,0 +1,9 @@
+{
+  "type": "SMTP",
+  "options": {
+      "auth": {
+          "user": "john.doe@gmail.com",
+          "pass": "password"
+      }
+  }
+}
