@@ -89,6 +89,30 @@ module.exports = function(grunt) {
             }
         },
 
+        /**
+         * Resize image tasks (used internally)
+         * ===============================
+         */
+        image_resize: {
+            options: {
+                width: 216,
+                height: 216,
+                overwrite: true
+            },
+            productResize: {
+                files: [
+                    {
+                        flatten: true,
+                        expand: true,
+                        cwd: '<%= paths.tmp %>/images/',
+                        src: ['product_*.jpg'],
+                        dest: '<%= paths.tmp %>/images/',
+                        ext: '.jpg'
+                    }
+                ]
+            }
+        },
+
 
         /**
          * SCSS Compilation Tasks (used internally)
@@ -385,6 +409,7 @@ module.exports = function(grunt) {
     grunt.registerTask('base_dev', [
         'clean',
         'copy',
+        'image_resize',
         'compass:dev',
         'render',
         'preprocess:dev'
@@ -401,6 +426,7 @@ module.exports = function(grunt) {
     grunt.registerTask('dist', [
         'clean',
         'copy',
+        'image_resize',
         'imagemin',
         'compass:dist',
         'render',
